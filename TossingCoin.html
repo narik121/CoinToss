@@ -1,0 +1,62 @@
+<html>
+
+	<head>
+	
+		<title>JavaScript Exercises 9_9.26 Tossing Coin </title>
+		
+		<style type = "text/css"> 
+		{
+			table {text-align:right}
+			body {font-family:arial, sans-serif} 
+			div.red { color:red }
+			td.blue {color:blue}
+		}
+		</style> 
+		
+		<script type = "text/javascript" src="./toss.js">
+				
+		</script>
+		
+	</head>
+	
+	<body>
+		<form action = "">
+			<table>
+			<caption> Script for Tossing the Coin </caption>
+			<tr>
+				<td> <input value = "Choose HEADS " type = "button" onclick = "heads()" /> </td>
+			
+				<td> <input value = "Choose TAILS " type = "button" onclick = "tails()" /> </td>
+			</tr>
+			
+			<tr>
+				<td> Heads: </td>
+				<td id = "heads" class = "blue"> 0 </td>
+			</tr>
+			
+			<tr>
+				<td> Tails: </td>
+				<td id = "tails" class = "blue"> 0 </td>
+			</tr>
+			
+			
+			
+			
+		</form>
+		<!-- <h3> Hit Refresh or F5 to execute current program! </h3> -->
+			<div id = "image"> </div>
+				<div id = "result" class = "red">
+				Result Here!
+			
+			</div>
+			Won:
+			<div id = "stats_won" class = "blue">
+			0
+			</div>
+			Lost:
+			<div id = "stats_lost" class = "blue">
+			0
+			</div>
+	</body>
+	
+</html>
